@@ -7,20 +7,20 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1591</NoWarn>
 
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Product>Quartzmin.SelfHost</Product>
     <Title>Quartzmin Self Host</Title>
-    <Authors>Jan Lucansky</Authors>
-    <PackageProjectUrl>https://github.com/jlucansky/Quartzmin</PackageProjectUrl>
+    <Authors>Jan Lucansky, Andrew Dyson</Authors>
+    <PackageProjectUrl>https://github.com/anddyson/QuartzminUpdate</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/jlucansky/public-assets/master/Quartzmin/avatar.png</PackageIconUrl>
     <Description>This package allows you to host Quartzmin within your own process.</Description>
     <PackageTags>quartzmin;web;host</PackageTags>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Copyright>Copyright © 2018 Jan Lucansky</Copyright>
+    <Copyright>Copyright © 2018 Jan Lucansky, Andrew Dyson</Copyright>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/jlucansky/Quartzmin</RepositoryUrl>
+    <RepositoryUrl>https://github.com/anddyson/QuartzminUpdate</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('$(TargetFramework)', '^net\d'))">
