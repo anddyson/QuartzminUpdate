@@ -4,10 +4,10 @@
 
 ---
 
-[![NuGet](https://img.shields.io/nuget/v/QuartzminFork.svg)](https://www.nuget.org/packages/QuartzminFork)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-QuartzminUpdate is a fork of Quartzmin, to try and keep it up to date with newer Quartz.NET versions
+## Minimum requirements
+QuartzminUpdate is a fork of https://github.com/maikebing/Quartzmin, itself a fork of the original Quartzmin. This version's intent is to try and keep it up to date with newer Quartz.NET versions. Specifically it is known to work with Quartz 3.4.0, resolving a bug which occurred in the original Quartzmin when trying to add jobs on that version of Quartz. All other functionality remains the same as the fork it's based on'.
 
 Quartzmin is powerful, easy to use web management tool for Quartz.NET
 
